@@ -127,7 +127,6 @@ export class KCombo extends Sprite
 	
 	private OnHeaderClicked = (e:MouseEvent):void =>
 	{
-		console.log("Header Clicked");
 		if (this.contains(this._itemMenu))
 		{
 			this.OnRollout();

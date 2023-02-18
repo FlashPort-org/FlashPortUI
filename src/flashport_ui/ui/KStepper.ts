@@ -60,8 +60,8 @@ export class KStepper extends Sprite
 	private onRemovedFromStage = (e:Event):void =>
 	{
 		this.removeEventListener(AEvent.REMOVED_FROM_STAGE, this.onRemovedFromStage);
-		this._mainStage = null;
 		this.disable();
+		this._mainStage = null;
 	}
 	
 	private Draw = ():void =>
