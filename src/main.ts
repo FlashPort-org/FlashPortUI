@@ -1,25 +1,25 @@
 import CanvasKitInit from "canvaskit-wasm/bin/canvaskit.js";
 import CanvasKitWasm from "canvaskit-wasm/bin/canvaskit.wasm?url";
 import { CanvasKit } from "canvaskit-wasm";
-import { Sprite } from "@fp/flash/display/Sprite";
-import { FlashPort } from "@fp/FlashPort";
-import { LineChart } from "./com/kl/charts/LineChart";
-import { Plot } from "./com/kl/charts/Plot";
-import { KColorPicker } from "./com/kl/ui/KColorPicker";
-import { KCombo } from "./com/kl/ui/KCombo";
-import { KList } from "./com/kl/ui/KList";
-import { KListItem } from "./com/kl/ui/KListItem";
-import { KSpinner } from "./com/kl/ui/KSpinner";
-import { KStepper } from "./com/kl/ui/KStepper";
-import { KTextInput } from "./com/kl/ui/KTextInput";
-import { Tree } from "./com/kl/ui/Tree";
-import { AEvent } from "@fp/flash/events";
-import { AssetLoader } from "@fp/flash/__native/AssetLoader";
-import { KSlider } from "./com/kl/ui/KSlider";
-import { KCheck } from "./com/kl/ui/KCheck";
-import { KButton } from "./com/kl/ui/KButton";
-import { MouseEvent } from "@fp/flash/events/MouseEvent";
-import { KAlert } from "./com/kl/ui/KAlert";
+import { Sprite } from "flashport";
+import { FPConfig } from "flashport";
+import { LineChart } from "./flashport_ui/charts/LineChart";
+import { Plot } from "./flashport_ui/charts/Plot";
+import { KColorPicker } from "./flashport_ui/ui/KColorPicker";
+import { KCombo } from "./flashport_ui/ui/KCombo";
+import { KList } from "./flashport_ui/ui/KList";
+import { KListItem } from "./flashport_ui/ui/KListItem";
+import { KSpinner } from "./flashport_ui/ui/KSpinner";
+import { KStepper } from "./flashport_ui/ui/KStepper";
+import { KTextInput } from "./flashport_ui/ui/KTextInput";
+import { Tree } from "./flashport_ui/ui/Tree";
+import { AEvent } from "flashport";
+import { AssetLoader } from "flashport";
+import { KSlider } from "./flashport_ui/ui/KSlider";
+import { KCheck } from "./flashport_ui/ui/KCheck";
+import { KButton } from "./flashport_ui/ui/KButton";
+import { MouseEvent } from "flashport";
+import { KAlert } from "./flashport_ui/ui/KAlert";
 
 ;
 /**
@@ -30,7 +30,7 @@ export class Main extends Sprite
 {
 	constructor() 
 	{
-		FlashPort.stageWidth = 550;
+		FPConfig.stageWidth = 550;
 		
 		super();
 
@@ -147,6 +147,6 @@ export class Main extends Sprite
 CanvasKitInit({
     locateFile: (file) => '/node_modules/canvaskit-wasm/bin/'+file,
 }).then((canvasKit:CanvasKit) => {
-    FlashPort.canvasKit = canvasKit;
+    FPConfig.canvasKit = canvasKit;
     new Main();
 });

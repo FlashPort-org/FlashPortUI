@@ -15,10 +15,6 @@
     "noImplicitReturns": true,
     "noImplicitAny": false,
     "strictNullChecks": false,
-    "baseUrl": "../FlashPort",
-    "paths": {
-      "@fp/*": ["src/*"]
-    }
   },
   "include": ["src"]
 }
