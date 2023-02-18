@@ -10,6 +10,12 @@ export default defineConfig({
           name: 'flashportui',
           fileName: 'flashportui',
         },
+        rollupOptions: {
+          external: ['flashport']
+        },
       },
       plugins: [tsconfigPaths(), dts()],
+      optimizeDeps: {
+        exclude: ['flashport']
+      }
 })
