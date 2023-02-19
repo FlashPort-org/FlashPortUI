@@ -1,5 +1,5 @@
 {
-  "name": "flashportui",
+  "name": "@flashport/flashportui",
   "version": "0.0.1",
   "description": "This is a set basic UI components for FlashPort",
   "author": "Kenny Lerma",
