@@ -1,6 +1,6 @@
 {
   "name": "@flashport/flashportui",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "This is a set basic UI components for FlashPort",
   "author": "Kenny Lerma",
   "license": "MIT",
@@ -12,7 +12,15 @@
   "bugs": {
     "url": "https://github.com/FlashPort-com/FlashPortUI/issues"
   },
-  "keywords": ["FlashPortUI", "UI", "FlashPort", "Flash", "Components", "Canvas", "Canvas2d"],
+  "keywords": [
+    "FlashPortUI",
+    "UI",
+    "FlashPort",
+    "Flash",
+    "Components",
+    "Canvas",
+    "Canvas2d"
+  ],
   "type": "module",
   "main": "./dist/flashportui.umd.cjs",
   "module": "./dist/flashportui.js",
@@ -39,6 +47,6 @@
     "vite-tsconfig-paths": "^3.5.1"
   },
   "dependencies": {
-    "flashport": "file:flashport-0.0.1.tgz"
+    "@flashport/flashport": "^0.0.2"
   }
 }

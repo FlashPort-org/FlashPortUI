@@ -1,7 +1,7 @@
 
 import { KLabel } from '../../ui/KLabel';
-import { Sprite } from "flashport";
-import { DropShadowFilter } from "flashport";
+import { Sprite } from "@flashport/flashport";
+import { DropShadowFilter } from "@flashport/flashport";
 
 /**
 	* ...

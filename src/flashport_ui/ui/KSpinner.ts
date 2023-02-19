@@ -1,11 +1,11 @@
-import { Stage } from "flashport";
-import { AEvent } from "flashport";
-import { TextFormatAlign } from "flashport";
+import { Stage } from "@flashport/flashport";
+import { AEvent } from "@flashport/flashport";
+import { TextFormatAlign } from "@flashport/flashport";
 import { ITextInput } from "../interfaces/ITextInput";
-import { KeyboardEvent } from "flashport";
-import { FocusEvent } from "flashport";
-import { MouseEvent } from "flashport";
-import { Keyboard } from "flashport";
+import { KeyboardEvent } from "@flashport/flashport";
+import { FocusEvent } from "@flashport/flashport";
+import { MouseEvent } from "@flashport/flashport";
+import { Keyboard } from "@flashport/flashport";
 import { KTextInput } from "./KTextInput";
 /**
  * ...

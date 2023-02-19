@@ -1,13 +1,13 @@
-import { DisplayObject } from "flashport";
-import { GradientType } from "flashport";
-import { Sprite } from "flashport";
-import { Stage } from "flashport";
-import { AEvent } from "flashport";
-import { Matrix } from "flashport";
-import { TextFormatAlign } from "flashport";
+import { DisplayObject } from "@flashport/flashport";
+import { GradientType } from "@flashport/flashport";
+import { Sprite } from "@flashport/flashport";
+import { Stage } from "@flashport/flashport";
+import { AEvent } from "@flashport/flashport";
+import { Matrix } from "@flashport/flashport";
+import { TextFormatAlign } from "@flashport/flashport";
 import { ITextInput } from "../interfaces/ITextInput";
 import { KSpinner } from "./KSpinner";
-import { MouseEvent } from "flashport";
+import { MouseEvent } from "@flashport/flashport";
 import { DEvent } from "../events/DEvent";
 import { KTextInput } from "./KTextInput";
 

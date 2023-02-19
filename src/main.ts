@@ -1,8 +1,8 @@
 import CanvasKitInit from "canvaskit-wasm/bin/canvaskit.js";
 import CanvasKitWasm from "canvaskit-wasm/bin/canvaskit.wasm?url";
 import { CanvasKit } from "canvaskit-wasm";
-import { Sprite } from "flashport";
-import { FPConfig } from "flashport";
+import { Sprite } from "@flashport/flashport";
+import { FPConfig } from "@flashport/flashport";
 import { LineChart } from "./flashport_ui/charts/LineChart";
 import { Plot } from "./flashport_ui/charts/Plot";
 import { KColorPicker } from "./flashport_ui/ui/KColorPicker";
@@ -13,12 +13,12 @@ import { KSpinner } from "./flashport_ui/ui/KSpinner";
 import { KStepper } from "./flashport_ui/ui/KStepper";
 import { KTextInput } from "./flashport_ui/ui/KTextInput";
 import { Tree } from "./flashport_ui/ui/Tree";
-import { AEvent } from "flashport";
-import { AssetLoader } from "flashport";
+import { AEvent } from "@flashport/flashport";
+import { AssetLoader } from "@flashport/flashport";
 import { KSlider } from "./flashport_ui/ui/KSlider";
 import { KCheck } from "./flashport_ui/ui/KCheck";
 import { KButton } from "./flashport_ui/ui/KButton";
-import { MouseEvent } from "flashport";
+import { MouseEvent } from "@flashport/flashport";
 import { KAlert } from "./flashport_ui/ui/KAlert";
 
 ;

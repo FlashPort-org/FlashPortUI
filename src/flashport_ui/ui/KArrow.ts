@@ -1,5 +1,5 @@
-import { Sprite } from "flashport";
-import { MouseEvent } from "flashport";
+import { Sprite } from "@flashport/flashport";
+import { MouseEvent } from "@flashport/flashport";
 
 /**
  * Creates an arrow shape with a center registration.

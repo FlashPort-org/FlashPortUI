@@ -1,7 +1,7 @@
-import { Sprite } from "flashport";
-import { TextField } from "flashport";
-import { TextFormat } from "flashport";
-import { TextFormatAlign } from "flashport";
+import { Sprite } from "@flashport/flashport";
+import { TextField } from "@flashport/flashport";
+import { TextFormat } from "@flashport/flashport";
+import { TextFormatAlign } from "@flashport/flashport";
 
 /**
  * ...

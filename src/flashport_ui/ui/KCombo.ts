@@ -1,14 +1,14 @@
-import { Sprite } from "flashport";
-import { TextField } from "flashport";
-import { MouseEvent } from "flashport";
+import { Sprite } from "@flashport/flashport";
+import { TextField } from "@flashport/flashport";
+import { MouseEvent } from "@flashport/flashport";
 import { KScrollbar } from './KScrollbar';
-import { AEvent } from "flashport";
+import { AEvent } from "@flashport/flashport";
 import { DEvent } from "../events/DEvent";
-import { Matrix } from "flashport";
-import { GradientType } from "flashport";
-import { Shape } from "flashport";
-import { TextFormat } from "flashport";
-import { TextFieldAutoSize } from "flashport";
+import { Matrix } from "@flashport/flashport";
+import { GradientType } from "@flashport/flashport";
+import { Shape } from "@flashport/flashport";
+import { TextFormat } from "@flashport/flashport";
+import { TextFieldAutoSize } from "@flashport/flashport";
 
 	
 /**

@@ -1,9 +1,9 @@
-import { Equations } from "flashport";
-import { Tweener } from "flashport";
-import { DisplayObject } from "flashport";
-import { Sprite } from "flashport";
-import { AEvent } from "flashport";
-import { MouseEvent } from "flashport";
+import { Equations } from "@flashport/flashport";
+import { Tweener } from "@flashport/flashport";
+import { DisplayObject } from "@flashport/flashport";
+import { Sprite } from "@flashport/flashport";
+import { AEvent } from "@flashport/flashport";
+import { MouseEvent } from "@flashport/flashport";
 import { DEvent } from "../events/DEvent";
 import { KListItem } from "./KListItem";
 import { KScrollbar } from "./KScrollbar";

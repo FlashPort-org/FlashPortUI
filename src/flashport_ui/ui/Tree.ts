@@ -1,14 +1,14 @@
-import { Bitmap } from "flashport";
-import { BitmapData } from "flashport";
-import { Sprite } from "flashport";
-import { Stage } from "flashport";
-import { AEvent } from "flashport";
-import { KeyboardEvent } from "flashport";
-import { Keyboard } from "flashport";
+import { Bitmap } from "@flashport/flashport";
+import { BitmapData } from "@flashport/flashport";
+import { Sprite } from "@flashport/flashport";
+import { Stage } from "@flashport/flashport";
+import { AEvent } from "@flashport/flashport";
+import { KeyboardEvent } from "@flashport/flashport";
+import { Keyboard } from "@flashport/flashport";
 import { DEvent } from "../events/DEvent";
 import { KLabel } from "./KLabel";
-import { MouseEvent } from "flashport";
-import { setTimeout } from "flashport";
+import { MouseEvent } from "@flashport/flashport";
+import { setTimeout } from "@flashport/flashport";
 /**
  * ...
  * @author Kenny Lerma

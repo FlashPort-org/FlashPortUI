@@ -1,8 +1,8 @@
-import { Bitmap } from "flashport";
-import { BitmapData } from "flashport";
-import { DisplayObject } from "flashport";
-import { Matrix } from "flashport";
-import { Rectangle } from "flashport";
+import { Bitmap } from "@flashport/flashport";
+import { BitmapData } from "@flashport/flashport";
+import { DisplayObject } from "@flashport/flashport";
+import { Matrix } from "@flashport/flashport";
+import { Rectangle } from "@flashport/flashport";
 /**
  * ...
  * @author Kenny Lerma

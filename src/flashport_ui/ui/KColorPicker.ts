@@ -1,9 +1,9 @@
-import { InterpolationMethod } from "flashport";
-import { GradientType } from "flashport";
-import { Shape } from "flashport";
-import { SpreadMethod } from "flashport";
-import { Sprite } from "flashport";
-import { Matrix } from "flashport";
+import { InterpolationMethod } from "@flashport/flashport";
+import { GradientType } from "@flashport/flashport";
+import { Shape } from "@flashport/flashport";
+import { SpreadMethod } from "@flashport/flashport";
+import { Sprite } from "@flashport/flashport";
+import { Matrix } from "@flashport/flashport";
 import { KTextInput } from './KTextInput';
 
 /**

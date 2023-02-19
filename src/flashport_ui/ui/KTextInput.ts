@@ -1,12 +1,12 @@
-import { Sprite } from "flashport";
-import { TextFieldType } from "flashport";
+import { Sprite } from "@flashport/flashport";
+import { TextFieldType } from "@flashport/flashport";
 import { ITextInput } from "../interfaces/ITextInput";
 import { KLabel } from "./KLabel";
-import { MouseEvent } from "flashport";
-import { KeyboardEvent } from "flashport";
-import { FocusEvent } from "flashport";
-import { TextField } from "flashport";
-import { TextFormat } from "flashport";
+import { MouseEvent } from "@flashport/flashport";
+import { KeyboardEvent } from "@flashport/flashport";
+import { FocusEvent } from "@flashport/flashport";
+import { TextField } from "@flashport/flashport";
+import { TextFormat } from "@flashport/flashport";
 /**
  * ...
  * @author Kenny Lerma

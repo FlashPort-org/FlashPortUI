@@ -1,8 +1,8 @@
-import { Sprite } from "flashport";
-import { AEvent } from "flashport";
-import { TextField } from "flashport";
-import { TextFieldAutoSize } from "flashport";
-import { TextFormat } from "flashport";
+import { Sprite } from "@flashport/flashport";
+import { AEvent } from "@flashport/flashport";
+import { TextField } from "@flashport/flashport";
+import { TextFieldAutoSize } from "@flashport/flashport";
+import { TextFormat } from "@flashport/flashport";
 import { KButton } from "./KButton";
 
 /**

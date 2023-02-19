@@ -1,4 +1,4 @@
-import { AEvent } from "flashport";
+import { AEvent } from "@flashport/flashport";
 
 /*
 * @author Kenny Lerma

@@ -1,12 +1,12 @@
-import { Tweener } from "flashport";
-import { GradientType } from "flashport";
-import { Sprite } from "flashport";
-import { AEvent } from "flashport";
-import { MouseEvent } from "flashport";
-import { Matrix } from "flashport";
-import { TextField } from "flashport";
-import { TextFieldAutoSize } from "flashport";
-import { TextFormat } from "flashport";
+import { Tweener } from "@flashport/flashport";
+import { GradientType } from "@flashport/flashport";
+import { Sprite } from "@flashport/flashport";
+import { AEvent } from "@flashport/flashport";
+import { MouseEvent } from "@flashport/flashport";
+import { Matrix } from "@flashport/flashport";
+import { TextField } from "@flashport/flashport";
+import { TextFieldAutoSize } from "@flashport/flashport";
+import { TextFormat } from "@flashport/flashport";
 
 /**
  * Custom button class for Admin Panel.

@@ -1,6 +1,6 @@
-import { Sprite } from "flashport";
-import { AEvent } from "flashport";
-import { MouseEvent } from "flashport";
+import { Sprite } from "@flashport/flashport";
+import { AEvent } from "@flashport/flashport";
+import { MouseEvent } from "@flashport/flashport";
 /**
 	* ...
 	* @author Kenny Lerma

@@ -1,8 +1,8 @@
-import { DisplayObject } from "flashport";
-import { Sprite } from "flashport";
+import { DisplayObject } from "@flashport/flashport";
+import { Sprite } from "@flashport/flashport";
 import { KLabel } from "./KLabel";
-import { MouseEvent } from "flashport";
-import { AEvent } from "flashport";
+import { MouseEvent } from "@flashport/flashport";
+import { AEvent } from "@flashport/flashport";
 import { TrashCan } from './TrashCan';
 
 	

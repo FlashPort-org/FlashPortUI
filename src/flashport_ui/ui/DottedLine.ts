@@ -1,6 +1,6 @@
-﻿import { BitmapData } from "flashport";
-import { Shape } from "flashport";
-import { Rectangle } from "flashport";
+﻿import { BitmapData } from "@flashport/flashport";
+import { Shape } from "@flashport/flashport";
+import { Rectangle } from "@flashport/flashport";
 
 export class DottedLine extends Shape
 {

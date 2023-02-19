@@ -1,8 +1,8 @@
-import { GradientType } from "flashport";
-import { Sprite } from "flashport";
-import { AEvent } from "flashport";
-import { Matrix } from "flashport";
-import { MouseEvent } from "flashport";
+import { GradientType } from "@flashport/flashport";
+import { Sprite } from "@flashport/flashport";
+import { AEvent } from "@flashport/flashport";
+import { Matrix } from "@flashport/flashport";
+import { MouseEvent } from "@flashport/flashport";
 
 /**
  * ...

@@ -1,11 +1,11 @@
-import { Sprite } from "flashport";
+import { Sprite } from "@flashport/flashport";
 import { KLabel } from '../ui/KLabel';
 import { PlotCircle } from "./ui/PlotCircle";
 import { PlotLabel } from "./ui/PlotLabel";
-import { MouseEvent } from "flashport";
-import { DropShadowFilter } from "flashport";
-import { Tweener } from "flashport";
-import { Equations } from "flashport";
+import { MouseEvent } from "@flashport/flashport";
+import { DropShadowFilter } from "@flashport/flashport";
+import { Tweener } from "@flashport/flashport";
+import { Equations } from "@flashport/flashport";
 import { Plot } from "./Plot";
 
 /**

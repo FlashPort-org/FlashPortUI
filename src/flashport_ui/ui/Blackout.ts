@@ -1,6 +1,6 @@
-import { Sprite } from "flashport";
-import { Stage } from "flashport";
-import { AEvent } from "flashport";
+import { Sprite } from "@flashport/flashport";
+import { Stage } from "@flashport/flashport";
+import { AEvent } from "@flashport/flashport";
 
 /**
  * ...

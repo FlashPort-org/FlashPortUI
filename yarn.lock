@@ -17,6 +17,14 @@
   "resolved" "https://registry.npmjs.org/@esbuild/win32-x64/-/win32-x64-0.16.17.tgz"
   "version" "0.16.17"
 
+"@flashport/flashport@^0.0.2":
+  "integrity" "sha512-YLBAkpLxsiwBGxFnOXCT7wpgmdr8bVB6erBV2v9p5kMyIdS8wNUMGO4E/l0FbKvp9diNz47MT0FIfUXvaRNTBw=="
+  "resolved" "https://registry.npmjs.org/@flashport/flashport/-/flashport-0.0.2.tgz"
+  "version" "0.0.2"
+  dependencies:
+    "@types/css-font-loading-module" "^0.0.7"
+    "canvaskit-wasm" "^0.34.1"
+
 "@jridgewell/sourcemap-codec@^1.4.13":
   "integrity" "sha512-XPSJHWmi394fuUuzDnGz1wiKqWfo1yXecHQMRf2l6hztTO+nPru658AyDngaBe7isIxEkRsPR3FZh+s7iVa4Uw=="
   "resolved" "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.14.tgz"
@@ -308,14 +316,6 @@
   "version" "7.0.1"
   dependencies:
     "to-regex-range" "^5.0.1"
-
-"flashport@file:flashport-0.0.1.tgz":
-  "integrity" "sha512-+ZcuZgCgnXO1HQF5Yl1ld/XUVmUG0M3VMkNL+IWQ/vWtXlCj5/ZH3y/EOI902w+65NFsSGXEnb5TFlY/JL/kfg=="
-  "resolved" "file:flashport-0.0.1.tgz"
-  "version" "0.0.1"
-  dependencies:
-    "@types/css-font-loading-module" "^0.0.7"
-    "canvaskit-wasm" "^0.34.1"
 
 "fs-extra@^10.1.0":
   "integrity" "sha512-oRXApq54ETRj4eMiFzGnHWGy+zo5raudjuxN0b8H7s/RU2oW0Wvsx9O0ACRN/kRq9E8Vu/ReskGB5o3ji+FzHQ=="

@@ -1,9 +1,9 @@
-import { GradientType } from "flashport";
-import { LineScaleMode } from "flashport";
-import { Sprite } from "flashport";
-import { MouseEvent } from "flashport";
-import { Matrix } from "flashport";
-import { Rectangle } from "flashport";
+import { GradientType } from "@flashport/flashport";
+import { LineScaleMode } from "@flashport/flashport";
+import { Sprite } from "@flashport/flashport";
+import { MouseEvent } from "@flashport/flashport";
+import { Matrix } from "@flashport/flashport";
+import { Rectangle } from "@flashport/flashport";
 import { DEvent } from "../events/DEvent";
 
 /**

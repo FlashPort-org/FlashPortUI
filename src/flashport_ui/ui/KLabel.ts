@@ -1,6 +1,6 @@
-import { TextField } from "flashport";
-import { TextFieldAutoSize } from "flashport";
-import { TextFormat } from "flashport";
+import { TextField } from "@flashport/flashport";
+import { TextFieldAutoSize } from "@flashport/flashport";
+import { TextFormat } from "@flashport/flashport";
 
 /**
  * ...

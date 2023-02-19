@@ -1,4 +1,4 @@
-import { Sprite } from "flashport";
+import { Sprite } from "@flashport/flashport";
 
 /**
  * ...

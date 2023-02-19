@@ -1,6 +1,6 @@
-import { GradientType } from "flashport";
-import { Sprite } from "flashport";
-import { Matrix } from "flashport";
+import { GradientType } from "@flashport/flashport";
+import { Sprite } from "@flashport/flashport";
+import { Matrix } from "@flashport/flashport";
 
 	
 /**
