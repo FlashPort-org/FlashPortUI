@@ -35,7 +35,7 @@ export class KButton extends Sprite
 	 * Stores the name to display on the button.
 	 * @param	name	the name on the button.
 	 */
-	constructor(name:string, fontSize:number = 14) 
+	constructor(name:string, fontSize:number = 12) 
 	{
 		super();
 
@@ -120,21 +120,21 @@ export class KButton extends Sprite
 		this._buttonName.wordWrap = false;
 		this._buttonName.selectable = false;
 		this._buttonName.text = this._nameText;
-		this._buttonName.x = 5;
+		this._buttonName.x = 7;
 		this._buttonName.y = 0;
 		this.addChild(this._buttonName);
 		
 		var colors:number[] = [0xFFFFFF, 0x999999];
 		var alphas:number[] = [1, 1];
-		var ratios:number[] = [127, 255];
+		var ratios:number[] = [1, 255];
 		var matrix:Matrix = new Matrix()
-		matrix.createGradientBox(this._buttonName.textWidth + 15, this._buttonName.height + 13, 90/180*Math.PI);
+		matrix.createGradientBox(this._buttonName.textWidth + 17, this._buttonName.height + 17, 90/180*Math.PI);
 		
-		this.graphics.lineStyle(1.5, 0x666666, 1, true, "none");
+		this.graphics.lineStyle(1.5, 0xB8B8B8, 1, true, "none");
 		this.graphics.beginGradientFill(GradientType.LINEAR, colors, alphas, ratios, matrix );
 		//this.graphics.beginFill(0xFFFFFF);
 		
-		this.graphics.drawRoundRect(0, 0, this._buttonName.textWidth + 15, this._buttonName.textHeight + 13, 6, 6);
+		this.graphics.drawRoundRect(0, 0, this._buttonName.textWidth + 17, this._buttonName.textHeight + 17, 6, 6);
 		this._buttonName.y = ((this.height - this._buttonName.textHeight) / 2) - 2;
 		
 		this.mouseChildren = false;
